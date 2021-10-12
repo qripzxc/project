@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 80px;
+    padding-left: 60px;
+}
+*{font-family: 'Lato', sans-serif;}
+.head{
+    display: inline-flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: inline-flex;
+}
+li{
+    list-style-type: none
+}
+li a{
+    font-size: 22px;
+    background: none;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    color:black;
+}
+li a:hover{
+    color: black;
+    backdrop-filter: blur(10px);
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+body{
+    background-image: url(./src/img/world.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfloat:before {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+main p{
+    color:bisque;
+}
+main{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
